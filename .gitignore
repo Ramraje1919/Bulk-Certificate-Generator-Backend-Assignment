@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+ENV*/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Database files (local runtime databases)
+*.db
+*.sqlite
+*.sqlite3
+certificates.db
+
+# Generated certificates & archives (keep only directory structure)
+generated/*
+!generated/.gitkeep
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# IDE & OS-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Private notes / prep
+INTERVIEW_PREPARATION.md
